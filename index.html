@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rock Paper Scissors </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1> Rock Paper Scissors </h1></header>
+
+    <div class="round"> Rounds </div>
+
+    <div class="score-board">
+        <div id="user-lable" class="badge"> user </div>
+        <div id="computer-lable" class="badge"> computer </div>
+        <span id="user-score"> 0 </span>:<span id="computer-score"> 0 </span>
+        <div class="userPlaceholder" id="user-choice"></div> <div id="computer-choice"></div>
+    </div>
+
+    <div class="result">
+        <p> </p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock"> <img id="r" src="Images/rock.jpg" width="60px"> </div>
+        <div class="choice" id="paper"> <img id="p" src="Images/paper.jpg" width="60px"> </div>
+        <div class="choice" id="scissors"> <img id="s" src="Images/scissors.jpg" width="60px"> </div>
+    </div>
+
+    <p id="action-massage"> 
+        Make your move
+       <small>first to 5 points wins</small> 
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

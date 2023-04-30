@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #4C76E0, #4CC5E0, #5659FC);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #60B3F7;
+    text-align: center;
+    padding: 10px auto;
+    color: #223564;
+}
+
+.round{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 10px auto 0px auto;
+    background-color: #4C76E0;
+    width: 200px;
+}
+
+.score-board{
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    width: 200px;
+    margin: 10px auto;
+    position: relative;
+    font-size: 40px;
+}
+
+.badge{
+    background-color: #4CC5E0;
+    width: 30%;
+}
+
+#user-lable{
+    position: absolute;
+    top: 40%;
+    left: -6%;
+    font-size: 15px;
+}
+
+#computer-lable{
+    position: absolute;
+    top: 40%;
+    right: -6%;
+    font-size: 15px;
+}
+
+#user-choice{
+    width: 65px;
+    height: 60px;
+    padding: 10px;
+    margin-left: -100px; 
+    margin-top: -50px;
+    position: absolute;
+
+}
+
+#computer-choice{
+    width: 65px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 230px;
+    margin-top: -50px;
+    position: absolute;
+
+}
+
+.result{
+    color: white;
+    font-size: 40px ;
+}
+
+.result p{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+}
+
+.choice{
+    padding: 10px;
+    border: 2px solid white;
+    margin: 0px 15px;
+}
+
+.choice:hover{
+    background-color: white;
+}
+
+#action-massage{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+small{
+    color: #223564;
+    font-size: smaller;
+    font-style: italic;
+}
