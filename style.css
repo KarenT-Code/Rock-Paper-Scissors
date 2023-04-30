@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(to bottom right, #4C76E0, #4CC5E0, #5659FC);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 965px;
 }
 
 header{

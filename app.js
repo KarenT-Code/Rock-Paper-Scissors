@@ -16,18 +16,6 @@ const paper_img = document.getElementById("p");
 const scissors_img = document.getElementById("s");
 const finalResult_p = document.getElementById("action-massage");
 
-function playAgain() {
-    setTimeout(() => {
-      const playAgain = confirm("Do you want to play again?");
-      if (playAgain) {
-        resetGame();
-      }
-      else{
-        window.close();
-      }
-    }, 1000);
-  }
-
 function getComputerChoice() {
     const choices = ['rock','paper','scissors'];
     const randomNumber = Math.floor(Math.random() * 3);
@@ -119,6 +107,19 @@ function game(userChoice) {
             playAgain();
         }
     }
+}
+
+
+function playAgain() {
+    setTimeout(() => {
+      const playAgain = confirm("Do you want to play again?");
+      if (playAgain) {
+        resetGame();
+      }
+      else{
+        window.close();
+      }
+    }, 1000);
 }
 
 function resetGame() {
