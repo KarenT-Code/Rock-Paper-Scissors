@@ -94,7 +94,6 @@ function game(userChoice) {
     round_div.innerHTML = "Round: " + round;
 
     if (userScore == 5 || computerScore == 5) {
-        // Stop game
         if (userScore > computerScore) {
             finalResult_p.innerHTML = "YOU WIN!";
             confetti({
